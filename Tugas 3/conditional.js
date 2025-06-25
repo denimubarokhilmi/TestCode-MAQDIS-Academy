@@ -50,11 +50,11 @@ async function playGame() {
         else if (role == 'werewolf') return werewolf(name, role);
         else {
             console.log('Nama peran tidak ada')
-            roles();
+            return roles();
         }
 
     };
-    roles()
+    await roles();
 }
 
 playGame();
