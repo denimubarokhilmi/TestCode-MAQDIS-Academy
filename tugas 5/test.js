@@ -29,7 +29,7 @@ describe("endpoinst testing, test competion", () => {
     });
 
     it("should return endpoinst /delete-deposit", async () => {
-        const res = await request.post("/delete-deposit").send({});
+        const res = await request.get("/delete-deposit")
         assert.deepEqual(res.body, { message: 'berhasil', id_setoran: 58, id_user: 3441, id_juz: 30 });
         assert.equal(res.status, 200);
     });

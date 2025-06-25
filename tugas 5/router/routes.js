@@ -5,6 +5,6 @@ const router = express.Router();
 router.get('/hello', hello);
 router.post("/send-data", sendData);
 router.post('/delete-data', deleteData);
-router.post('/delete-deposit', deleteDeposit);
+router.get('/delete-deposit', deleteDeposit);
 
 export default router;
