@@ -1,0 +1,6 @@
+Hallo!
+Assalamualaikum Akang/teteh dari perusahaan MAQDIS Academy
+Untuk jawaban soal yang membuat endpoinst ini, disini saya menggabungkan semuanya dalam 1 folder dan dipisahkah untuk masing-masing routenya, jadi tidak dibuat satu-satu untuk setiap route yang diminta soal. karna ini kurang efektif jika 1 route dibikin 1 file. Jadi disini saya inisiatif sendiri buat menggabungkan semua route yang dimintal soal dalam 1 file/folder.
+Untuk lebih jelas apakah route yang dimina itu sesuai, bisa kunjungi/lihat file test.js, disitu saya menguji PerEndponinst menggunakan supertest dan unit test (bawaan dari module node.js).
+
+Terima kasih 🙏🙏
