@@ -6,7 +6,6 @@ const firtsLooping = (lenght) => {
     }
     return;
 };
-// firtsLooping(20)
 const secondLooping = (lenght) => {
     for (let index = lenght; index >= 1; index--) {
         if (index == lenght) console.log('SECOND LOOP');
@@ -15,5 +14,6 @@ const secondLooping = (lenght) => {
     }
     return;
 }
-console.clear();
-secondLooping(20)
+// console.clear();
+// firtsLooping(20)
+// secondLooping(20)
